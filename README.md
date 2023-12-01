@@ -1,8 +1,11 @@
 # smartctl for esxi7/8
 
+VIB(vSphere Installation Bundle) with smartctl for esxi 7/8
+
+> [!WARNING]
 This solution does not work when secure boot is enabled
 
-1. Download [smartctl-7.4-5530.x86_64.vib](https://github.com/bsv9/smartctl-esxi/raw/main/smartctl-7.4-5530.x86_64.vib)
+1. Download [smartctl-7.4-5530.x86_64.vib](https://github.com/bsv9/smartctl-esxi-vib/raw/main/smartctl-7.4-5530.x86_64.vib)
 
 2.  Copy the VIB to the /tmp/ directory of an ESXi host
 3.  SSH to the ESXi host
